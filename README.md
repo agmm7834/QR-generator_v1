@@ -1,18 +1,15 @@
 # QR-generator_v1
 
-````md
 # C# QR Console Generator
 
-C# yordamida konsolda QR-kod yaratish uchun oddiy va yengil CLI dasturi.  
+C# yordamida konsolda QR-kod yaratish uchun oddiy va yengil CLI dasturi.
 Loyiha `QRCoder` kutubxonasidan foydalanadi.
 
 ## O‘rnatish
 
-Loyihaga kerakli kutubxonani o‘rnating:
-
 ```bash
 dotnet add package QRCoder
-````
+```
 
 ## Ishlatish
 
@@ -31,13 +28,11 @@ dotnet run -- -f text.txt qr.png
 ## Parametrlar
 
 * `data` — matn yoki URL
-* `-f <file>` — QR matnini fayldan o‘qish
-* `output.png` — chiqqan QR fayl nomi (default: `qr.png`)
+* `-f <file>` — matnni fayldan o‘qish
+* `output.png` — saqlanadigan QR fayl nomi (default: `qr.png`)
 
 ## Natija
 
-Dastur kiritilgan matn asosida PNG formatidagi QR-kodni yaratadi va ko‘rsatilgan faylga saqlaydi.
+Dastur kiritilgan matndan PNG formatidagi QR-kod yaratadi va ko‘rsatilgan faylga saqlaydi.
 
 
-Agar xohlasangiz README uchun **rasmli demo**, **badge**, yoki **ASCII preview misollari** ham qo‘shib beraman.
-```
